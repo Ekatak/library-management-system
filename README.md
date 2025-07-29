@@ -88,7 +88,7 @@ Screenshots:
 ## Screenshots
 
 ### Login Page
-![Login Page](screenshots/Login.png)
+![Login Page](screenshots/LoginPage.png)
 
 ### Dashboard
 ![Dashboard](screenshots/Dashboard.png)
