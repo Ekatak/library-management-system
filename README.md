@@ -91,13 +91,13 @@ Screenshots:
 ![Login Page](screenshots/LoginPage.png)
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshots/DashBoard.png)
 
 ### Add Book
 ![Add Book](screenshots/AddBook.png)
 
 ### View Books
-![View Books](screenshots/view_book.png)
+![View Books](screenshots/View_book.png)
 
 ### Front Page
 ![Front Page](screenshots/FrontPage(Index).png)
