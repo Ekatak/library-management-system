@@ -86,11 +86,11 @@ library-management-system/
 
 Screenshots:
 
-    ![Login Page](screenshot/Login.png)
-    ![Dashboard](screenshot/DashBoard.png)
-    ![Books Page](screenshot/AddBook.png)
-    ![ViewBooks Page](screenshot/View_book.png)
-    ![Front Page](screenshot/FrontPage.png)
-    ![Database Page](screenshot/Db.png)
-    ![Xampp Page](screenshot/XamppRunn.png)
+    ![Login Page](screenshots/Login.png)
+    ![Dashboard](screenshots/DashBoard.png)
+    ![Books Page](screenshots/AddBook.png)
+    ![ViewBooks Page](screenshots/View_book.png)
+    ![Front Page](screenshots/FrontPage.png)
+    ![Database Page](screenshots/Db.png)
+    ![Xampp Page](screenshots/XamppRunn.png)
 
