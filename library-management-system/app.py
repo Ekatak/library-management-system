@@ -44,7 +44,7 @@ def login():
             session['username'] = user['username']
             return redirect(url_for('dashboard'))
         else:
-            flash("Invalid credentials", "danger")
+            flash("Invalid Credentials", "danger")
             return redirect(url_for('login'))
 
     return render_template('login.html')

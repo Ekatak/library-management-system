@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #fdfcfb, #e2d1c3); /* cozy library vibe */
-    min-height: 100vh; /* allow scrolling */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
