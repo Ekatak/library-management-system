@@ -97,15 +97,15 @@ Screenshots:
 ![Add Book](screenshots/AddBook.png)
 
 ### View Books
-![View Books](screenshots/ViewBooks.png)
+![View Books](screenshots/view_book.png)
 
 ### Front Page
-![Front Page](screenshots/FrontPage.png)
+![Front Page](screenshots/FrontPage(Index).png)
 
 ### Database
 ![Database](screenshots/Db.png)
 
 ### XAMPP
-![XAMPP](screenshots/Xampp.png)
+![XAMPP](screenshots/XamppRunn.png)
 
 
