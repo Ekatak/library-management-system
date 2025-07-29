@@ -85,12 +85,12 @@ library-management-system/
    
 
 Screenshots:
-
-    ![Login Page](screenshots/Login.png)
-    ![Dashboard](screenshots/DashBoard.png)
-    ![Books Page](screenshots/AddBook.png)
-    ![ViewBooks Page](screenshots/View_book.png)
-    ![Front Page](screenshots/FrontPage.png)
-    ![Database Page](screenshots/Db.png)
-    ![Xampp Page](screenshots/XamppRunn.png)
+C:\Users\Hp\Downloads\library-management-system\screenshots\AddBook.png
+C:\Users\Hp\Downloads\library-management-system\screenshots\After_logout.png
+C:\Users\Hp\Downloads\library-management-system\screenshot\Db.png
+C:\Users\Hp\Downloads\library-management-system\screenshots\DashBoard.png
+C:\Users\Hp\Downloads\library-management-system\screenshot\FrontPage(Index).png
+C:\Users\Hp\Downloads\library-management-system\screenshot\LoginPage.png
+C:\Users\Hp\Downloads\library-management-system\screenshot\View_book.png
+C:\Users\Hp\Downloads\library-management-system\screenshot\XamppRunn.png
 
