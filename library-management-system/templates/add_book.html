@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Book</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='Styles/add_book.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+      <header class="top-header">
+    <div class="logo">
+      <i class="fas fa-book-reader"></i>
+      <span>LIBROTRACK</span>
+    </div>
+  </header>
+  <!-- Book animation container -->
+  <div class="animated-books">
+    <div class="book book1"></div>
+    <div class="book book2"></div>
+    <div class="book book3"></div>
+  </div>
+
+  <!-- Form container -->
+  <div class="form-container">
+    <h2>📖 Add New Book</h2>
+    <form method="POST" action="/add_book">
+      <label for="title">Title</label>
+      <input type="text" name="title" placeholder="Enter book title" required>
+
+      <label for="author">Author</label>
+      <input type="text" name="author" placeholder="Enter author's name" required>
+
+      <label for="isbn">ISBN</label>
+      <input type="text" name="isbn" placeholder="Enter ISBN" required>
+
+      <label for="publisher">Publisher</label>
+      <input type="text" name="publisher" placeholder="Enter publisher">
+
+      <label for="year">Published Year</label>
+      <input type="number" name="year" placeholder="YYYY" min="1000" max="9999">
+
+      <label for="category">Category</label>
+      <input type="text" name="category" placeholder="Enter category">
+
+      <button type="submit">Add Book</button>
+    </form>
+  </div>
+</body>
+</html>

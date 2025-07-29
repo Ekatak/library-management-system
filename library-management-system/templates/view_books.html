@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Styles/view_books.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="top-header">
+    <div class="logo">
+        <i class="fas fa-book-reader"></i>
+        <span>LIBROTRACK</span>
+    </div>
+    <div class="nav-links">
+        <a href="/dashboard">📚 Dashboard</a>
+        <a href="/logout">🚪 Logout</a>
+    </div>
+</header>
+    <div class="content">
+        <h2>All Books</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th>Publisher</th>
+                        <th>Year</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for book in books %}
+                    <tr>
+                        <td>{{ book.id }}</td>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                        <td>{{ book.isbn }}</td>
+                        <td>{{ book.publisher }}</td>
+                        <td>{{ book.year }}</td>
+                        <td>{{ book.category }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Styles/dashboard.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+   <header class="top-header">
+    <div class="logo">
+        <i class="fas fa-book-reader"></i>
+        <span>LIBROTRACK</span>
+    </div>
+    <div class="nav-links">
+        <a href="/add_book">➕ Add Book</a>
+        <a href="/books">📖 View Books</a>
+        <a href="/logout">🚪 Logout</a>
+    </div>
+</header>
+
+<div class="dashboard">
+    <h2>Welcome, <span class="username">{{ username }}</span>!</h2>
+    <p class="description">Manage your books, users, and track your library from this portal.</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Add New Book</h3>
+            <p>Insert new book records to your library system.</p>
+            <a href="/add_book">Add Book</a>
+        </div>
+        <div class="card">
+            <h3>View All Books</h3>
+            <p>Explore, filter, and manage the list of books.</p>
+            <a href="/books">View Books</a>
+        </div>
+        <div class="card">
+            <h3>Logout</h3>
+            <p>End your session securely and return to login.</p>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
