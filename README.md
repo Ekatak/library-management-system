@@ -85,12 +85,27 @@ library-management-system/
    
 
 Screenshots:
-C:\Users\Hp\Downloads\library-management-system\screenshots\AddBook.png
-C:\Users\Hp\Downloads\library-management-system\screenshots\After_logout.png
-C:\Users\Hp\Downloads\library-management-system\screenshot\Db.png
-C:\Users\Hp\Downloads\library-management-system\screenshots\DashBoard.png
-C:\Users\Hp\Downloads\library-management-system\screenshot\FrontPage(Index).png
-C:\Users\Hp\Downloads\library-management-system\screenshot\LoginPage.png
-C:\Users\Hp\Downloads\library-management-system\screenshot\View_book.png
-C:\Users\Hp\Downloads\library-management-system\screenshot\XamppRunn.png
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/Login.png)
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### Add Book
+![Add Book](screenshots/AddBook.png)
+
+### View Books
+![View Books](screenshots/ViewBooks.png)
+
+### Front Page
+![Front Page](screenshots/FrontPage.png)
+
+### Database
+![Database](screenshots/Db.png)
+
+### XAMPP
+![XAMPP](screenshots/Xampp.png)
+
 
